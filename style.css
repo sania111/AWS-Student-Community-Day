@@ -156,7 +156,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .heading-section {
-    background-position: 75%;
+    background-position: 60%;
   }
   .heading-content img {
     text-align: center;
@@ -204,6 +204,7 @@ html {
 @media screen and (max-width: 768px) {
   .stats-content li {
     margin: 2px;
+    font-size: small;
   }
   .big-number {
     font-size: 1.7em;
