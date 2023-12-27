@@ -203,10 +203,10 @@ html {
 }
 @media screen and (max-width: 768px) {
   .stats-content li {
-    margin: 3px;
+    margin: 2px;
   }
   .big-number {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 
 }
@@ -324,7 +324,7 @@ html {
 }
 
 .countdown-content h2 {
-  font-size: 2em;
+  /* font-size: 2em; */
   margin-bottom: 20px;
   margin-top: -8px;
 }
