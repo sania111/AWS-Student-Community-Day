@@ -685,8 +685,10 @@ iframe {
 .footer .icons{
   font-size:x-large;
 }
-.instagram{
-  color: purple;
+
+.fab{
+  padding: 10px;
+  font-size: 25px;
 }
 
 .footer p {
