@@ -534,14 +534,35 @@ html {
   display: flex;
   align-items: center;
   text-align: center;
+  height: 120px;
+  width: 120px;
+}
+
+.profile-card-member {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  width: 100px;
 }
 
 .profile-card img {
   transition: opacity 0.3s ease-in-out;
-  height: 120px;
-  width: 120px;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
+  position: relative;
 }
+
+.profile-card-member img {
+  transition: opacity 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
 .profile-info {
   text-align: center;
 }
@@ -567,6 +588,33 @@ html {
 
 .profile-card:hover .linkedin-icon {
   opacity: 1;
+}
+
+.complete-team{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+  margin: 0px 5%;
+}
+
+.member{
+    padding: 10px;
+    /* background-color: #f8f8f8; */
+    /* border-radius: 5px; */
+}
+/* .member .profile-card img {
+  transition: opacity 0.3s ease-in-out;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+} */
+
+.img-member{
+  height: 100px;
+  width: 100px;
+
 }
 
 
@@ -674,7 +722,7 @@ iframe {
 
 
 .footer {
-  background-color: #333;
+  background-color: #233141;
   color: #fff;
   padding: 20px 0;
   text-align: center;

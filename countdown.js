@@ -1,5 +1,5 @@
 // Set the event date (YYYY, MM (zero-based), DD, HH, MM, SS)
-const eventDate = new Date(2024, 1, 7, 9, 0, 0); // February 7, 2024, 09:00:00
+const eventDate = new Date(2024, 1, 3, 9, 0, 0); // February 3, 2024, 09:00:00
 
 function updateCountdown() {
   const now = new Date().getTime();
