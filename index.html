@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AWS Symposium at IGDTUW</title>
+    <link rel="stylesheet" href="./perLoader.css">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,8 +22,14 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Inter&family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    
   </head>
-  <body>
+  <body class="loading">
+    <div class="preloader">
+      <div class="loader">    
+      </div>
+    </div>
+
     <div class="main-content">
       <div class="navbar sidebarMenu" id="navbar">
         <a href="#heading">Home</a>
@@ -452,6 +459,7 @@
       </div>
     </div>
     <script src="countdown.js"></script>
+    <script src="./preloader.js"></script>
   </body>
 </html>
 
