@@ -220,6 +220,7 @@ html {
   top: 150px;
   /* bottom: 0px; */
   animation: moveCloud 10s linear infinite;
+  max-width: 100vw;
 }
 
 @keyframes moveCloud {
@@ -286,6 +287,7 @@ html {
     max-width: 90%;
     margin: 0 auto;
     padding: 0 40px;
+    font-size: small;
   }
 }
 
@@ -522,10 +524,10 @@ html {
 
 .heads {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 25px;
   margin: 0px 5%;
 }
 
@@ -600,21 +602,31 @@ html {
 }
 
 .member{
-    padding: 10px;
+    padding: 10px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     /* background-color: #f8f8f8; */
     /* border-radius: 5px; */
 }
-/* .member .profile-card img {
-  transition: opacity 0.3s ease-in-out;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-} */
+
+@media screen and (max-width: 768px) {
+  .heads {
+    justify-content: space-between;
+  }
+  .member{
+    padding: 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 
 .img-member{
   height: 100px;
   width: 100px;
-
 }
 
 
@@ -646,7 +658,7 @@ html {
 
 .reason-card {
   background-color: #f8f8f8; 
-  padding: 20px;
+  padding: 0px 20px;
   margin: 10px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
