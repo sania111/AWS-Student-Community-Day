@@ -622,6 +622,23 @@ html {
     justify-content: center;
     flex-direction: column;
   }
+  .profile-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+  }
+  #team h3{
+    font-size: 1em;
+    margin-block-end: 12px;
+    margin-block-start: 10px;
+  }
+  .profile-info p {
+    font-size: small;
+    margin-top: -20px;
+  }
 }
 
 .img-member{
