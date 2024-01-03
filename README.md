@@ -4,7 +4,7 @@
 Welcome to the AWS-Student-Community-Day website repository! This repository contains the code for the website designed for the AWS-Student-Community-Day event.
 
 ## Visit the website :
-https://payalnarwal.github.io/AWS-Symposium/
+https://payalnarwal.github.io/AWS-Student-Community-Day/
 
 ## About
 
