@@ -94,7 +94,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 63vh;
   padding: 20px;
 }
 
@@ -545,36 +545,40 @@ html {
   text-align: center;
   padding: 60px 0;
   color: #333; 
-}
-
-/* Styles for the sponsor bar container */
-.sponsor-bar {
   display: flex;
-  overflow: hidden;
-  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Animation for moving the sponsor logos */
-.sponsor-logo {
-  width: 100vw;
-  display: flex;
-  animation: moveSponsors 2s linear infinite; /* Adjust duration based on your preference */
+.sponsors-section .sub-part{
+  display: inline-block;
+  margin: 0px 60px;  
+}
+.sponsors-section .sub-part img{
+  width: 200px;
+  height: 70px;
+  object-fit: contain;  
 }
 
-/* Keyframes for the moving animation */
-@keyframes moveSponsors {
-  0% {
-    transform: translateX(0); /* Initial position */
+.konfhub{
+  position: relative;
+  top: -12px;
+}
+
+@media screen and (max-width: 768px) {  
+  .sponsors-section {
+    flex-direction: column;
   }
-  100% {
-    transform: translateX(100% * (var(--sponsor-count) + 1)); /* Translate the logos */
+  .sponsors-section .sub-part{
+    /* display: inline-block; */
+    margin: 10px 60px;  
   }
+  .sponsors-section .sub-part h2{
+    font-size: larger;
+  }
+
 }
 
-
-.sponsor-logo img{
-  width: 100px;
-}
 
 
 /*  team  */
