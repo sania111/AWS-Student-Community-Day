@@ -507,6 +507,15 @@ html {
     object-fit: cover;
     box-sizing:content-box;
   }
+  .speaker-details {
+    padding: 10px;
+    height: 165px;
+    width: 150px;
+    /* background-color: #f8f8f8; */
+  }
+  .speaker-details h3{
+    margin-top: 0px;
+  }
   .speaker-details p:first-of-type{    
     font-size: x-small;
   }  
@@ -515,6 +524,16 @@ html {
     width: 140px;
     top: 112px;
     left: 95px;
+  }
+  .speaker-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }
+  
+  .speaker-card.show {
+    opacity: 1;
+    transform: translateY(0);
   }
     
 }
@@ -676,6 +695,7 @@ html {
 
 /* join us section */
 .join-us-section {
+  background-color: #233141;
   background-image: url("./assets/bg-images/animation1.gif");
   /* background-image: url("./assets/bg-images/animation2.gif"); */
   /* background-size: cover; */
