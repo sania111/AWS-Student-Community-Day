@@ -638,15 +638,10 @@ html {
   width: 100%;
   border-radius: 50%;
   position: relative;
+  object-fit: cover;
 }
 
-.profile-card-member img {
-  transition: opacity 0.3s ease-in-out;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-  position: relative;
-}
+
 
 .profile-info {
   text-align: center;
