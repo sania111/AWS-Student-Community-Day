@@ -234,7 +234,7 @@ html {
   }
   100% {
     transform: translateX(
-      calc(100vw + 100px)
+      calc(100vw)
     ); /* Moving from left to right outside the viewport */
   }
 }
