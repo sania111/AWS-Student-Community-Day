@@ -380,7 +380,7 @@ html {
     margin: 0 auto;
   }
   #countdown-clock {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   #countdown-clock span {
     margin: 0 5px;
